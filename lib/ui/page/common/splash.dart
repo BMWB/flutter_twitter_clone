@@ -58,7 +58,7 @@ class _SplashPageState extends State<SplashPage> {
 
     if (config != null &&
         config['name'] == currentAppVersion &&
-        config['versions'].contains(int.tryParse(buildNo))) {
+        config['versions'] == buildNo) {
       return true;
     } else {
       if (kDebugMode) {
