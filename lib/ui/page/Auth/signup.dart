@@ -146,7 +146,7 @@ class _SignupState extends State<Signup> {
     loader.showLoader(context);
     var state = Provider.of<AuthState>(context, listen: false);
     Random random = Random();
-    int randomNumber = random.nextInt(8);
+    int randomNumber = random.nextInt(6);
 
     UserModel user = UserModel(
       email: _emailController.text.toLowerCase(),
