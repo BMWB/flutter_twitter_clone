@@ -22,6 +22,46 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+    <!-- 相册 -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The App requires your consent to access the album</string>
+    <!-- 相机 -->
+    <key>NSCameraUsageDescription</key>
+    <string>The App requires your consent to access the camera</string>
+    <!-- 麦克风 -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The App requires your consent to access the microphone</string>
+    <!-- 位置 -->
+    <key>NSLocationUsageDescription</key>
+    <string>The App requires your consent to access the location</string>
+    <!-- 在使用期间访问位置 -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>The App requires your consent to access the location during use</string>
+    <!-- 始终访问位置 -->
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>The App requires your consent to always access the location</string>
+    <!-- 日历 -->
+    <key>NSCalendarsUsageDescription</key>
+    <string>The App requires your consent to access the calendar</string>
+    <!-- 提醒事项 -->
+    <key>NSRemindersUsageDescription</key>
+    <string>The App needs your consent to access the reminders</string>
+    <!-- 运动与健身 -->
+    <key>NSMotionUsageDescription</key>
+    <string>The App requires your consent to access Sports and fitness</string>
+    <!-- 健康更新 -->
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>The App requires your consent to access health updates</string>
+    <!-- 健康分享 -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>Your consent is required for the App to access HealthShare</string>
+    <!-- 蓝牙 -->
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Your consent is required for App to access Bluetooth</string>
+    <!-- 媒体资料库 -->
+    <key>NSAppleMusicUsageDescription</key>
+    <string>The App requires your consent to access the media database</string>
+
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

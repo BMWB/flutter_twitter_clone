@@ -31,7 +31,7 @@ dependencies:
   cloud_firestore: ^4.4.5 #Cloud Firestore 的 Flutter 插件，这是一个云托管的 noSQL 数据库，在 Android 和 iOS 上具有实时同步和离线支持。
   equatable: ^2.0.5
   http: ^0.13.5 
-  image_picker: ^0.8.7
+  image_picker: ^0.8.7+1
   package_info: ^2.0.2
   shared_preferences: ^2.0.20 #用于读写简单键值对的 Flutter 插件。在 iOS 上包装 NSUserDefaults，在 Android 上包装 SharedPreferences。
   google_sign_in: ^6.0.2  #用于 Google 登录的 Flutter 插件，用于在 Android 和 iOS 上使用 Google 帐户登录的安全身份验证系统。
