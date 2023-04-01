@@ -374,9 +374,9 @@ class AuthState extends AppState {
       kDatabase
           .child("profile")
           .child(userProfileId)
-          .once()
-          .then((DatabaseEvent event) async {
-        final snapshot = event.snapshot;
+          .get()
+          .then((DataSnapshot event) async {
+        final snapshot = event;
         if (snapshot.value != null) {
           var map = snapshot.value as Map<dynamic, dynamic>?;
           if (map != null) {

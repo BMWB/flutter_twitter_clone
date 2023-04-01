@@ -34,20 +34,14 @@ class _SplashPageState extends State<SplashPage> {
   /// Check if current app is updated app or not
   /// If app is not updated then redirect user to update app screen
   void timer() async {
-    // final isAppUpdated = await _checkAppVersion();
-    // if (isAppUpdated) {
-    //   cprint("App is updated");
-    //   Future.delayed(const Duration(seconds: 1)).then((_) {
-    //     var state = Provider.of<AuthState>(context, listen: false);
-    //     state.getCurrentUser();
-    //   });
-    // }
-
-    cprint("App is updated");
-    Future.delayed(const Duration(seconds: 1)).then((_) {
-      var state = Provider.of<AuthState>(context, listen: false);
-      state.getCurrentUser();
-    });
+    final isAppUpdated = await _checkAppVersion();
+    if (isAppUpdated) {
+      cprint("App is updated");
+      Future.delayed(const Duration(seconds: 1)).then((_) {
+        var state = Provider.of<AuthState>(context, listen: false);
+        state.getCurrentUser();
+      });
+    }
   }
 
   /// Return installed app version
